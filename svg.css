@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+}
+
+#firsthand{
+  animation: arm 4s ease infinite;
+  transform-origin: right center bottom;
+  transform-box: fill-box;
+}
+
+@keyframes arm {
+  from{
+    transform:rotatez(0deg);
+  }
+  to{
+    transform:rotatez(-40deg);
+  }
+}
+
+#firsthanb{
+  animation: hanb 4s infinite;
+  transform-origin: right center bottom;
+  transform-box: fill-box;
+  animation-timing-function: ease;
+}
+
+@keyframes hanb {
+  from{
+    transform:rotatez(0deg);
+  }
+  to{
+    transform:rotatez(-20deg);
+  }
+}
+
+#firstpiz{
+  animation: firstpiz 4s ease infinite;
+  transform-origin: left top;
+  transform-box: fill-box;
+}
+
+@keyframes firstpiz {
+  from{
+    transform:rotateZ(0deg);
+  }
+  to{
+    transform:rotateZ(-130deg);
+  }
+}
+
+#thirdhand{
+  animation: thirdhand 4s infinite ;
+  transform-origin: right top;
+  transform-box: fill-box;
+  animation-timing-function: ease;
+}
+
+@keyframes thirdhand{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(30deg);
+  }
+}
